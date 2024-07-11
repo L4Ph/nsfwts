@@ -1,0 +1,12 @@
+{
+    "name": "@l4ph/nsfwts",
+    "version": "0.1.0",
+    "exports": "./mod.ts",
+    "publish": {
+        "include": [
+          "LICENSE",
+          "README.md",
+          "src/**/*.ts"
+        ]
+    }
+}
