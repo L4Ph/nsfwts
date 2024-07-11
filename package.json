@@ -1,5 +1,5 @@
 {
-  "name": "nsfwjs-onnx",
+  "name": "nsfwts",
   "module": "index.ts",
   "type": "module",
   "devDependencies": {

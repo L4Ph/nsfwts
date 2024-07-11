@@ -1,15 +1,7 @@
-# nsfwjs-onnx
+# nsfwts
 
-To install dependencies:
+Alternative to [infinitered/nsfwjs](https://github.com/infinitered/nsfwjs)
 
-```bash
-bun install
-```
-
-To run:
-
-```bash
-bun run index.ts
-```
+It is implemented using Typescript and WASM(onnxruntime-web based).
 
 This project was created using `bun init` in bun v1.1.18. [Bun](https://bun.sh) is a fast all-in-one JavaScript runtime.
