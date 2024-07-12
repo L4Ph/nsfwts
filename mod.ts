@@ -1,1 +1,1 @@
-export * from "./src/index"
+export { load } from "./src/index.ts";
