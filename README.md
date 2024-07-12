@@ -14,10 +14,10 @@ This project demonstrates how to classify images using a pre-trained model with 
 Here is an example of how to use the provided `load` function to classify an image:
 
 ```typescript
-import { load } from './path-to-your-script';
+import { load } from '@l4ph/nsfwts';
 
 const image = document.getElementById('your-image-id') as HTMLImageElement;
-const modelUrl = '@l4ph/nsfwts';
+const modelUrl = 'path-to-your-model.onnx';
 
 load(image, modelUrl).then(results => {
   console.log('Classification Results:', results);
